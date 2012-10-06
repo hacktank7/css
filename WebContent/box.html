@@ -24,11 +24,21 @@ li.withborder {
 	border-color: lime;
 }
 
+#container {
+	border: 2px dotted #00f;
+}
+
 div {
-	background: #fef;
+	border-radius: 10px;
+}
+
+div div{
+	background: #FEF;
 	border: 1px solid lime;
-	width: 400px;
+	width: 80px;
 	height: 200px;
+	margin: 10px 30px;
+	display: inline-block;
 }
 
 p {
@@ -42,14 +52,37 @@ p {
 </style>
 </head>
 <body>
-<ul>
-	<li>First element of list</li>
-	<li class="withborder">Second element of list is a bit</li>
-</ul>
+	<ul>
+		<li>First element of list</li>
+		<li class="withborder">Second element of list is a bit</li>
+	</ul>
 
-<div>
-text
-<p>other text</p>
+
+<div id="container">
+	<div>
+		text
+		<p>other text</p>
+	</div>
+	<div>
+		text
+		<p>other text</p>
+	</div>
+	<div>
+		text
+		<p>other text</p>
+	</div>
+	<div>
+		text
+		<p>other text</p>
+	</div>
+	<div>
+		text
+		<p>other text</p>
+	</div>
+	<div>
+		text
+		<p>other text</p>
+	</div>
 </div>
 
 </body>
